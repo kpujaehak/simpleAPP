@@ -7,6 +7,6 @@ packages:
 runcmd:
   - python3 -m pip install flask waitress
   - cd /opt
-  - git clone https://github.com/jaehwachung/cloud_computing.git
-  - cd /opt/cloud_computing/shop1
+  - git clone https://github.com/kpujaehak/simpleAPP.git
+  - cd /opt/simpleAPP/shop1
   - python3 shop_main.py
