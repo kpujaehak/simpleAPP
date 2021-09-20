@@ -3,6 +3,7 @@ from waitress import serve
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def shop_run():
     return render_template("index.html")
